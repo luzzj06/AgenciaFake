@@ -1,0 +1,45 @@
+@media screen and (max-width: 1000px) {
+    .menu {
+        display: none;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+    .logo {
+        margin: 0;
+        text-align: center;
+    }
+
+    .header {
+        padding-top: 50px;
+
+    }
+
+    .headline {
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .headline p {
+        text-align: center;
+    }
+
+    .img-headline {
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .whatsapp {
+        display: none;
+    }
+
+    .card {
+        margin-top: 100px;
+        width: 100%;
+        padding: 5px;
+    }
+}

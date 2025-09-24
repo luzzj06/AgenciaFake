@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 80px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+
+}
+
+.logo {
+    flex: 20%;
+    margin-left: 10%;
+    text-align: left;
+
+
+}
+
+.menu {
+    flex: 60%;
+    text-align: right;
+    padding: 20px;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: #180f4a;
+    padding: 20px 16px;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    color: #ff2978;
+    border-top: 4px solid #180f4a;
+}
+
+.logo h1 {
+    font-family: 'Lobster', cursive;
+    color: rgb #180f4a;
+    margin: 0;
+    font-size: 34px;
+}
+
+#botao {
+    background: #180f4a;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 8px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao:hover {
+    background: #ff2978;
+    border: none;
+}
+
+.header {
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    padding-top: 100px;
+
+
+}
+
+.headline h2 {
+    font-size: 20px;
+    color: #180f4a;
+    font-weight: 900px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.headline {
+    flex: 40%;
+    margin-left: 10%;
+    align-self: center;
+}
+
+.img-headline {
+    flex: 40%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.contact-btn {
+    background: #ff2978;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.contact-btn:hover {
+    background: #180f4a;
+    border: none;
+
+}
+
+.headline p {
+    color: gray;
+    text-align: left;
+}
+
+section {
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
+    height: 200px;
+    padding: 5%;
+    text-align: center;
+}
+
+section h2 {
+    width: 100%;
+    font-size: 40px;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: #180f4a;
+}
+
+.serviços {
+    display: inline-block;
+    margin-top: 5%;
+
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: solid 1px #ff2978;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background: #ff2978;
+    color: white;
+    padding: 40px;
+}
+
+.card:hover img {
+    DISPLAY: NONE;
+
+}
+
+.card:hover .card-text {
+    display: none;
+}
+
+.card:hover .texto-oculto {
+    display: block;
+}
+
+
+.texto-oculto {
+    display: none;
+}
+
+
+footer {
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(180deg, #180f4a, #090422, black);
+    text-align: center;
+    border-top: 5px solid #ff2978;
+}
+
+.logo-rodape {
+
+    padding: 100px;
+
+}
+
+.agencia {
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 34px;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+
+}
